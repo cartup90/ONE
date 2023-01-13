@@ -1,0 +1,370 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #F3F5FC;
+}
+.container {
+    width: 90%;
+    height: 550px;
+    display: flex;
+}
+.columna1{
+    height: 80%;
+    width:15%;
+
+
+}
+.logo {
+    margin-top: 25%;
+}
+.columna2{
+    height: 80;
+    width: 55%;
+    background-color: #F3F5FC;
+    border-radius: 24px;
+    
+
+}
+
+.columna3{
+    height: 90%;
+    width: 40%;
+    background-color: white;
+    border-radius: 24px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+.textarea {
+    width: 80%;
+    margin-left: 8%;
+    margin-top: 35%;
+    height: 200px;
+    font-size: 20px;
+    border-style: none;
+    background-color: #F3F5FC;
+    resize: none;
+}
+.botonera {
+    
+    margin-left: 8%;
+    margin-top: 30px;
+}
+.but-encriptar {
+    border-radius: 24px;
+    color: white;
+    width: 40%;
+    height: 50px;
+    margin-right: 10px;
+    background-color: #0A3871;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.but-encriptar:hover {
+   
+    color: black;
+    background-color: skyblue;
+    
+    
+}
+.but-desencriptar {
+    border-radius: 24px;
+    width: 40%;
+    height: 50px;
+    margin-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.but-desencriptar:hover {
+   
+    color: whitesmoke;
+    background-color: #0A3871;
+    
+}
+.muneco {
+    margin-left: 10%;
+}
+.Nomuneco {
+    display: none;
+}
+.respuesta{
+    margin-left: 20%;
+    margin-top: 150px;
+    font-size: 20px;
+}
+.Norespuesta{
+    display: none;
+}
+.mensaje {
+    width: 70%;
+    margin-left: 55px;
+    border-style: none;
+    resize: none;
+    display: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    
+}
+.Nomensaje {
+    width: 70%;
+    margin-left: 55px;
+    border-style: none;
+    resize: none;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}
+.botonCopiar {
+    position: absolute;
+    left: 68% ;
+    top: 520px;
+    border-radius: 24px;
+    color: white;
+    width: 15%;
+    height: 50px;
+    background-color: #0A3871;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.botonCopiar:hover {
+    
+    color: black ;
+    
+    background-color: lightblue;
+   
+}
+.advertencia {
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#mensajeRespuesta {
+    width: 70%;
+    margin-left: 55px;
+    border-style: none;
+    resize: none;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    
+
+}
+.rodapie {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.linkedin {
+    width: 55px;
+    height: 30px;
+    margin-top: -5px;
+}
+
+
+@media screen and (min-width: 600px) and (max-width:980px) {
+
+   
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.columna1 {
+    width: 100%;
+    margin: 0;
+    height: 100px;
+}
+.columna2 {
+    display: block;
+    width: 100%;
+    margin-left: 5%;
+    margin-top: -45px;
+    height: 230px;
+}
+.logo {
+    margin-top: 5px;
+}
+.textarea {
+    margin-top: 30px;
+    margin-left: 5%;
+    height: 150px;
+    width: 89%;
+}
+.botonera{
+    display: block;
+
+    margin-top: 0px;
+    margin-left: 5%;
+}
+.but-encriptar {
+    width: 40%;
+    height: 50px;
+    
+}
+
+.but-desencriptar {
+    width: 40%;
+    height: 50px;
+    margin-left: 12%;
+}
+.but-desencriptar:hover {
+    width: 40%;
+    height: 50px;
+    margin-left: 12%;
+}
+.columna3 {
+    display: block;
+    width: 90%;
+    margin-left: 10%;
+    height: 180px;
+    margin-top: 60px;
+}
+.respuesta {
+    
+    display: block;
+    margin-top: 50px;
+    margin-left: 28%;
+    
+    font-size: 20px;
+
+}
+.mensaje {
+    position: absolute;
+    display: block;
+    
+    height: 50px;
+    margin-left: 25px;
+
+}
+#mensajeRespuesta {
+    width: 67%;
+    
+}
+.Nomensaje {
+    display: none;
+}
+.botonCopiar {
+    position: absolute;
+    top: 75%;
+    right: 0;
+    width: 40%;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: -38%;
+    
+}
+.botonCopiar:hover {
+    
+    background-color: skyblue;
+    color: black;
+}
+.muneco {
+    display: none;
+}
+.Nomuneco {
+    display: none;
+}
+}
+
+@media screen and (max-width:599px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .columna1 {
+        width: 100%;
+        margin: 0;
+        height: 100px;
+    }
+    .columna2 {
+        display: block;
+        width: 100%;
+        margin-left: 5%;
+        margin-top: -45px;
+        height: 230px;
+    }
+    .logo {
+        margin-top: 5px;
+    }
+    .textarea {
+        margin-top: 30px;
+        margin-left: 5%;
+        height: 150px;
+        width: 89%;
+    }
+    .botonera{
+        display: flex;
+        flex-direction: column;
+    
+        margin-top: 0px;
+        margin-left: 5%;
+    }
+    .but-encriptar {
+        position: absolute;
+        width: 400px;
+        height: 40px;
+        
+    }
+    
+    .but-desencriptar {
+        width: 400px;
+        height: 40px;
+        margin-left: 0%;
+    }
+   
+    .columna3 {
+        display: block;
+        width: 90%;
+        margin-left: 10%;
+        height: 180px;
+        margin-top: 60px;
+    }
+    .respuesta {
+        
+        display: block;
+        margin-top: 50PX;
+        margin-left: 18%;
+        
+        font-size: 20px;
+    
+    }
+    .Norespuesta {
+        display: none;
+    }
+    .mensaje {
+        position: absolute;
+        display: block;
+        
+        height: 50px;
+        margin-left: 25px;
+    
+    }
+    #mensajeRespuesta {
+        width: 67%;
+        max-height: 130px;
+        
+    }
+    .Nomensaje {
+        display: none;
+    }
+    .botonCopiar {
+        position: absolute;
+        top: 75%;
+        right: 0;
+        width: 400px ;
+        height: 40px;
+        margin-top: 30px;
+        margin-left: -58%;
+        
+    }
+    .botonCopiar:hover {
+        
+        background-color: skyblue;
+        color: black;
+    }
+    .muneco {
+        display: none;
+    }
+    .Nomuneco {
+        display: none;
+    }
+}
+
+
