@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="estilos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge ONE #1</title>
+</head>
+<body>
+    <div class="container">
+        <div class="columna1">
+            <img class="logo" src="Logo.png" alt="">
+            
+        </div>
+        <div class="columna2" >
+            <textarea class="textarea" name="input" placeholder="Ingrese el texto aqui" id="mensajeEncriptado" cols="30" rows="10"></textarea>   
+            </textarea>
+            <div class="botonera">
+                <p class="advertencia">*Solo letras, sin acentos ni signos especiales*</p>
+                <div class="botones">
+                <button id="botonEncriptar" class="but-encriptar">Encriptar</button>
+                <button id="botonDesencriptar" class="but-desencriptar ">Desencriptar</button>
+                </div>
+            </div>
+        </div>
+        <div class="columna3">
+            <textarea name="" id="mensajeRespuesta" cols="40" rows="10" class="mensaje oculto"></textarea>
+            
+            <img id="muneco" class="muneco" src="Muñeco.png" alt="">
+            <div class="texto-advertencia">
+            <p id="respuesta" class="respuesta"><b>Ningún mensaje fue encontrado</b></p>
+            <p id="sinRespuesta" class="respuesta">ingresa el texto que desees encriptar o desencriptar</p>
+            </div>
+            <button id="botonCopiar"  class="botonCopiar css-button-sliding-to-top--grey oculto">Copiar</button>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+    <footer>
+        <div class="rodapie">
+            Designed by Catriel Pardo. All rights Reserved.
+            <a href="https://www.linkedin.com/in/catriel-pardo-a92bb7245/" target="_blank"><img class="linkedin" src="linked.png" alt=""></a>
+        </div>
+    </footer>
+    
+</body>
+</html>
