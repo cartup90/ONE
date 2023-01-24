@@ -212,7 +212,8 @@ html, body{
 }
 .botonCopiar {
     position: absolute;
-    width: 18%;
+    width: 21%;
+    min-width: 20%;
     height: 40px;
     border-radius: 16px;
     font-family: sans-serif;
